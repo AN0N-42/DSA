@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.7" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="talentButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="DSA"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabbedPane" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabbedPane" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tabbedPane">
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tabbedPaneStateChanged"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="tab1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="W&#xfc;rfel">
+                <Property name="tabTitle" type="java.lang.String" value="W&#xfc;rfel"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="w3Button" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="w6Button" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="w20Button" min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="diceSecondaryOutput" alignment="0" max="32767" attributes="0"/>
+                          <Component id="diceMainOutput" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="w3Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="w6Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="w20Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="diceMainOutput" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="diceSecondaryOutput" min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="w3Button">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="W3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="w3ButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="w6Button">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="W6"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="w6ButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="w20Button">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="W20"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="w20ButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="diceMainOutput">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="24" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Wert"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="diceSecondaryOutput">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="(W&#xfc;rfel)"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tab2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Charakter">
+                <Property name="tabTitle" type="java.lang.String" value="Charakter"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="staticLabelCurrentlyLoadedCharacter" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="characterNameLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="staticLabelPath" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="characterPathLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="newCharacterButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="loadCharacterButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="editCharacterButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="staticLabelCurrentlyLoadedCharacter" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="characterNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="staticLabelPath" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="characterPathLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="editCharacterButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newCharacterButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="loadCharacterButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="staticLabelCurrentlyLoadedCharacter">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aktuell geladener Charakter:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="characterNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelPath">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dateipfad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="characterPathLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pfad"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="editCharacterButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Charakter bearbeiten"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editCharacterButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="newCharacterButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Neuer Charakter"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newCharacterButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="loadCharacterButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Charakter laden"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadCharacterButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tab3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Talente">
+                <Property name="tabTitle" type="java.lang.String" value="Talente"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="staticLabelPhysicalTalents" alignment="0" min="-2" pref="173" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jRadioButton30" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton29" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton28" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton27" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton15" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton16" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton17" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton18" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton19" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton20" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton21" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton22" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton23" min="-2" max="-2" attributes="0"/>
+                                  <Component id="staticLabelSocialTalents" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton24" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton25" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton26" min="-2" max="-2" attributes="0"/>
+                                  <Component id="staticLabelNatureTalents" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jRadioButton31" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton32" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton33" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton34" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton35" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton36" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton37" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton38" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton39" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton40" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton41" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton42" min="-2" max="-2" attributes="0"/>
+                                  <Component id="staticLabelKnowledgeTalents" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jRadioButton43" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton44" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton45" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton46" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton47" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton48" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton49" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton50" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton51" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton52" max="32767" attributes="0"/>
+                                  <Component id="jRadioButton53" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton54" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton55" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton56" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton57" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton58" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton59" min="-2" max="-2" attributes="0"/>
+                                  <Component id="staticLabelCraftingTalents" alignment="0" min="-2" pref="204" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="trialButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelTrial" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trialEaseTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="staticLabelTalentValue" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="talentValueLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="collectiveTrialButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelCollectiveTrial1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="collectiveTrialCountTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelCollectiveTrial2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="collectiveTrialEaseTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="talentsMainOutput" alignment="0" max="32767" attributes="0"/>
+                          <Component id="talentsSecondaryOutput" min="-2" pref="791" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="trialButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelTrial" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="trialEaseTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="talentValueLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelTalentValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="collectiveTrialButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelCollectiveTrial2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="collectiveTrialEaseTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelCollectiveTrial1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="collectiveTrialCountTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="talentsMainOutput" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="talentsSecondaryOutput" min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="staticLabelPhysicalTalents" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelSocialTalents" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelKnowledgeTalents" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelCraftingTalents" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton43" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton44" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton33" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton45" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton46" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton35" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton47" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton36" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton48" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton37" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton49" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton50" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton51" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton40" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton52" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelNatureTalents" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton53" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton54" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton55" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton56" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton57" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton58" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton59" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jRadioButton24" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton25" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton26" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton27" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton28" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton29" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jRadioButton30" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="staticLabelPhysicalTalents">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="K&#xf6;rpertalente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Fliegen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Gaukeleien"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Klettern"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="K&#xf6;rperbeherrschung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kraftakt"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton6">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reiten"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton7">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Schwimmen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton8">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Selbstbeherrschung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton9">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Singen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton10">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sinnessch&#xe4;rfe"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton11">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tanzen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton12">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Taschendiebstahl"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton13">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Verbergen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton14">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Zechen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelSocialTalents">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Gesellschaftstalente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton15">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bekehren &amp; &#xdc;berzeugen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton16">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bet&#xf6;ren"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton17">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Einsch&#xfc;chtern"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton18">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Etikette"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton19">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Gassenwissen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton20">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Menschenkenntnis"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton21">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xdc;berreden"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton22">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Verkleiden"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton23">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Willenskraft"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelNatureTalents">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Naturtalente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton24">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="F&#xe4;hrtensuchen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton25">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fesseln"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton26">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fischen &amp; Angeln"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton27">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Orientierung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton28">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pflanzenkunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton29">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tierkunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton30">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Wildnisleben"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelKnowledgeTalents">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Wissenstalente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton31">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Brett- &amp; Gl&#xfc;cksspiel"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton32">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Geographie"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton33">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Geschichtswissen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton34">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#xf6;tter &amp; Kulte"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton35">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kriegskunst"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton36">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Magiekunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton37">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Mechanik"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton38">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Rechnen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton39">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Rechtskunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton40">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sagen &amp; Legenden"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton41">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sph&#xe4;renkunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton42">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sternkunde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelCraftingTalents">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Handwerkstalente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton43">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Alchimie"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton44">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Boote &amp; Schiffe"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton45">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fahrzeuge"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton46">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Handel"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton47">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Heilkunde Gift"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton48">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Heilkunde Krankheiten"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton49">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Heilkunde Seele"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton50">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Heilkunde Wunden"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton51">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Holzbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton52">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Lebensmittelbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton53">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Lederbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton54">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Malen &amp; Zeichnen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton55">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Metallbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton56">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Musizieren"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton57">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Schl&#xf6;sserknacken"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton58">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Steinbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton59">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="talentButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Stoffbearbeitung"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="trialButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Probe"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="trialButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelTrial">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="auf gew&#xe4;hltes Talent, erleichtert um"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="trialEaseTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="collectiveTrialButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sammelprobe"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="collectiveTrialButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelCollectiveTrial1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="mit"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="collectiveTrialCountTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelCollectiveTrial2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Versuchen auf gew&#xe4;hltes Talent, erleichtert um"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="collectiveTrialEaseTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="talentsMainOutput">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="24" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Ergebnis"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="talentsSecondaryOutput">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Erl&#xe4;uterungen"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="talentsSecondaryOutputMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="talentValueLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="FW"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelTalentValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fertigkeitswert des gew&#xe4;hlten Talents:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tab4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Kampf">
+                <Property name="tabTitle" type="java.lang.String" value="Kampf"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="staticLabelEquippedWeapon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="equippedWeaponComboBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="staticLabelRange" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rangeLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="staticLabelEquippedArmor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="equippedArmorComboBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="staticLabelArmorValue" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="armorValueLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="staticLabelStrain" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="strainValueLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attackButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelAttack1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="attackEaseTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelAttack2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="additionalDamageTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelAttack3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="parryButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="staticLabelParry" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="parryEaseTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="combatOutput" alignment="0" min="-2" pref="549" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="staticLabelEquippedArmor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="equippedArmorComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelArmorValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="armorValueLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelStrain" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="strainValueLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="staticLabelEquippedWeapon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="equippedWeaponComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelRange" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="parryButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelParry" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="parryEaseTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="attackButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelAttack1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attackEaseTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelAttack2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="additionalDamageTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticLabelAttack3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="combatOutput" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="staticLabelEquippedWeapon">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ausger&#xfc;stete Waffe:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="equippedWeaponComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelEquippedArmor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Angelegte R&#xfc;stung:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="equippedArmorComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelArmorValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R&#xfc;stungswert:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="armorValueLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="RS"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelStrain">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Belastungswert:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="strainValueLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="BE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="parryButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Parade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelParry">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="mit Erleichterung um"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="parryEaseTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="attackButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Angriff"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelRange">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Reichweite:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rangeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelAttack1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="mit Erleichterung um"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="attackEaseTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelAttack2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="und"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="additionalDamageTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="staticLabelAttack3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="zus&#xe4;tzlichem Schaden"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="combatOutput">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Output"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tab5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Inventar">
+                <Property name="tabTitle" type="java.lang.String" value="Inventar"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="toggleViewButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="inventoryPanel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="toggleViewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="inventoryPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JToggleButton" name="toggleViewButton">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Hierarchische Ansicht"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="saveButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Speichern"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="graphics.inventory.InventoryPanel" name="inventoryPanel">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

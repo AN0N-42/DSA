@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Charakter>
+	<AP>
+		<gesamt>1240</gesamt>
+		<verfügbar>223</verfügbar>
+	</AP>
+	<Spezies>Zwerg</Spezies>
+	<Name>Gimlor</Name>
+	<Vorteile>Herausragender Sinn (Sicht, Gehör)\nRichtungssinn\nSchlangenmensch\nUnscheinbar\nZeitgefühl\nZwergennase\nDunkelsicht II\nReich IV</Vorteile>
+	<Nachteile>Schlechte Eigenschaft Rachsucht\nSchlechte Angewohnheit: Dritte Person\nAngst vor Kombination aus Fru'k'nar und Musik</Nachteile>
+	<Allgemeine_Sonderfertigkeiten>Fallen entschärfen\nLippen lesen</Allgemeine_Sonderfertigkeiten>
+	<Eigenschaften>
+		<MU>11</MU>
+		<KL>10</KL>
+		<IN>12</IN>
+		<CH>10</CH>
+		<FF>13</FF>
+		<GE>12</GE>
+		<KO>10</KO>
+		<KK>14</KK>
+	</Eigenschaften>
+	<Talente>
+		<Einschüchtern>0</Einschüchtern>
+		<Heilkunde_Wunden>0</Heilkunde_Wunden>
+		<Singen>0</Singen>
+		<Fischen__und__Angeln>0</Fischen__und__Angeln>
+		<Körperbeherrschung>10</Körperbeherrschung>
+		<Götter__und__Kulte>3</Götter__und__Kulte>
+		<Menschenkenntnis>6</Menschenkenntnis>
+		<Boote__und__Schiffe>0</Boote__und__Schiffe>
+		<Geschichtswissen>1</Geschichtswissen>
+		<Fesseln>0</Fesseln>
+		<Handel>3</Handel>
+		<Magiekunde>0</Magiekunde>
+		<Alchimie>0</Alchimie>
+		<Sphärenkunde>0</Sphärenkunde>
+		<Heilkunde_Gift>0</Heilkunde_Gift>
+		<Pflanzenkunde>0</Pflanzenkunde>
+		<Rechnen>4</Rechnen>
+		<Brett-__und__Glücksspiel>0</Brett-__und__Glücksspiel>
+		<Stoffbearbeitung>0</Stoffbearbeitung>
+		<Schlösserknacken>10</Schlösserknacken>
+		<Geographie>2</Geographie>
+		<Holzbearbeitung>0</Holzbearbeitung>
+		<Orientierung>8</Orientierung>
+		<Wildnisleben>0</Wildnisleben>
+		<Fliegen>0</Fliegen>
+		<Metallbearbeitung>6</Metallbearbeitung>
+		<Schwimmen>0</Schwimmen>
+		<Selbstbeherrschung>5</Selbstbeherrschung>
+		<Reiten>0</Reiten>
+		<Mechanik>4</Mechanik>
+		<Tierkunde>0</Tierkunde>
+		<Zechen>9</Zechen>
+		<Heilkunde_Seele>0</Heilkunde_Seele>
+		<Sinnesschärfe>10</Sinnesschärfe>
+		<Willenskraft>5</Willenskraft>
+		<Etikette>0</Etikette>
+		<Klettern>10</Klettern>
+		<Malen__und__Zeichnen>0</Malen__und__Zeichnen>
+		<Bekehren__und__Überzeugen>0</Bekehren__und__Überzeugen>
+		<Kraftakt>4</Kraftakt>
+		<Taschendiebstahl>5</Taschendiebstahl>
+		<Betören>1</Betören>
+		<Kriegskunst>0</Kriegskunst>
+		<Tanzen>0</Tanzen>
+		<Gassenwissen>6</Gassenwissen>
+		<Lebensmittelbearbeitung>0</Lebensmittelbearbeitung>
+		<Fährtensuchen>0</Fährtensuchen>
+		<Gaukeleien>0</Gaukeleien>
+		<Überreden>6</Überreden>
+		<Heilkunde_Krankheiten>0</Heilkunde_Krankheiten>
+		<Lederbearbeitung>0</Lederbearbeitung>
+		<Rechtskunde>4</Rechtskunde>
+		<Musizieren>0</Musizieren>
+		<Sternkunde>0</Sternkunde>
+		<Fahrzeuge>0</Fahrzeuge>
+		<Verbergen>10</Verbergen>
+		<Steinbearbeitung>4</Steinbearbeitung>
+		<Verkleiden>0</Verkleiden>
+		<Sagen__und__Legenden>3</Sagen__und__Legenden>
+	</Talente>
+	<Maximale_Lebensenergie>28</Maximale_Lebensenergie>
+	<Aktuelle_Lebensenergie>28</Aktuelle_Lebensenergie>
+	<Geld>322</Geld>
+	<Inventar>
+		<Behälter Name="Selbst">
+			<Rüstung>
+				<Name>Löschen!</Name>
+				<Rüstungswert>42</Rüstungswert>
+				<Belastungswert>42</Belastungswert>
+			</Rüstung>
+			<Behälter Name="Lederrucksack">
+				<Verbrauchsgegenstand>
+					<Name>Proviant</Name>
+					<Anzahl>4</Anzahl>
+				</Verbrauchsgegenstand>
+				<Sonstiges>
+					<Name>Kletterseil, 10 Schritt</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Wasserschlauch</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Wurfhaken</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Fernrohr</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Strickleiter, 10 Schritt</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>10 Kletterhaken</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Fesselseil, 10 Schritt</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Kompass</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Weizenähren</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Edelstein rot</Name>
+				</Sonstiges>
+				<Sonstiges>
+					<Name>Edelstein gelb</Name>
+				</Sonstiges>
+				<Waffe>
+					<Name>Schlagring</Name>
+					<Kampftechnik>Raufen</Kampftechnik>
+					<Schaden>1W6+1</Schaden>
+					<Mod>0/0</Mod>
+					<Reichweite>kurz</Reichweite>
+				</Waffe>
+				<Waffe>
+					<Name>Elfenbogen</Name>
+					<Kampftechnik>Bögen</Kampftechnik>
+					<Ladezeit>1</Ladezeit>
+					<Schaden>1W6+5</Schaden>
+					<Reichweite>50/100/200</Reichweite>
+					<Munition>Pfeile</Munition>
+				</Waffe>
+				<Waffe>
+					<Name>Kompositbogen</Name>
+					<Kampftechnik>Bögen</Kampftechnik>
+					<Ladezeit>2</Ladezeit>
+					<Schaden>1W6+7</Schaden>
+					<Reichweite>20/100/160</Reichweite>
+					<Munition>Pfeile</Munition>
+				</Waffe>
+			</Behälter>
+			<Behälter Name="Köcher">
+				<Verbrauchsgegenstand>
+					<Name>Pfeil</Name>
+					<Anzahl>14</Anzahl>
+				</Verbrauchsgegenstand>
+			</Behälter>
+			<Behälter Name="Dolchscheide">
+				<Waffe>
+					<Name>Drachenzahn</Name>
+					<Kampftechnik>Dolche</Kampftechnik>
+					<Schaden>1W6+2</Schaden>
+					<Mod>0/-1</Mod>
+					<Reichweite>kurz</Reichweite>
+				</Waffe>
+			</Behälter>
+			<Sonstiges>
+				<Name>Unterhose</Name>
+			</Sonstiges>
+			<Sonstiges>
+				<Name>Hose mit Hosentaschen</Name>
+			</Sonstiges>
+			<Sonstiges>
+				<Name>Hemd</Name>
+			</Sonstiges>
+			<Sonstiges>
+				<Name>Kapuzenumhang</Name>
+			</Sonstiges>
+		</Behälter>
+		<Behälter Name="Gasthaus">
+			<Sonstiges>
+				<Name>Waffenpflegeset</Name>
+			</Sonstiges>
+		</Behälter>
+	</Inventar>
+	<Aktuelle_Ausrüstung>
+		<Waffe>Drachenzahn</Waffe>
+		<Rüstung></Rüstung>
+	</Aktuelle_Ausrüstung>
+</Charakter>
